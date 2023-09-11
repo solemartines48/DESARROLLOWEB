@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE CONTACTO</title>
+    <link rel="stylesheet" href="ejercicio4.css">
+</head>
+     
+<body>
+    <fieldset>
+    <div class="container">
+        <h1>FORMULARIO DE CONTACTO</h1>
+        <p><i>Por favor, completa el formulario a continuación para ponerte en contacto con nosotros:</i></p>
+        <fieldset>
+            <form action="#" method="post" class="formulario">
+                <label for="nombre">Ingresa tu Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+           
+                <label for="nombre">Ingresa tu Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+    
+                <label for="nombre">Documento de Identidad:</label>
+                <input type="text" id="dni" name="dni" required>
+            </form>
+            <form action="">
+                <b>Sexo: </b>
+                <input type="radio" name="sexo" value="Hombre">Hombre
+                <input type="radio" name="sexo" value="Mujer" checked >Mujer 
+                <input type="radio" name="sexo" value="Mujer">Otro <br><br>
+            </form>
+    
+            <form action="#" method="post" class="formulario">
+                <label for="nombre">Fecha de Nacimiento:</label>
+                <input type="text" id="fecha_de_nacimiento" name="fecha_de_nacimiento" required>
+        
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="nombre">Telefono:</label>
+                <input type="text" id="telefono" name="telefono" required>
+            </form>
+    
+            <form action="">
+                <b>Provincia: </b>
+                <select name="Provincia" id="Provincia">
+                    <option value=" SALTA" selected> Salta</option>
+                    <option value="BUENOS AIRES">Buenos Aires</option>
+                    <option value="JUJUY">Jujuy</option>
+                    <option value="TUCUMAN">Tucuman</option>
+                    <option value="SANTIAGO DEL ESTERO">Santiago del Estero</option>
+                    <option value="SANTA FE">Santa Fe</option>
+                    <option value="CORDOBA">Cordoba</option>
+                    <option value="MISIONES">Misiones</option>
+                    <option value="SANTA CRUZ">Santa Cruz</option>
+                    <option value="CORRIENTES">Corrientes</option>
+                </select>
+            </form>
+            <br>
+            <form action="#" method="post" class="formulario">
+    
+                <label for="mensaje">Dejanos un Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                
+                <input type="submit" value="Enviar la Informacion" class="boton-enviar">
+            </form>
+            
+        </fieldset>
+    </div>
+    </fieldset>
+</body>
+</html>
+
